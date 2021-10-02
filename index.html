@@ -4,18 +4,18 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Web 1920 – 1</title>
+<title>index</title>
 <style id="applicationStylesheet" type="text/css">
 	.mediaViewInfo {
-		--web-view-name: Web 1920 – 1;
-		--web-view-id: Web_1920__1;
+		--web-view-name: index;
+		--web-view-id: index;
 		--web-scale-to-fit: true;
 		--web-scale-to-fit-type: fit;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
 	:root {
-		--web-view-ids: Web_1920__1;
+		--web-view-ids: index;
 	}
 	* {
 		margin: 0;
@@ -23,18 +23,19 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#Web_1920__1 {
+	#index {
 		position: absolute;
 		width: 1920px;
 		height: 1080px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
-		--web-view-name: Web 1920 – 1;
-		--web-view-id: Web_1920__1;
+		--web-view-name: index;
+		--web-view-id: index;
 		--web-scale-to-fit: true;
 		--web-scale-to-fit-type: fit;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
+		cursor: default;
 	}
 	@keyframes fadein {
 	
@@ -55,7 +56,7 @@
 		overflow: visible;
 		padding: 0px;
 	}
-	#galaxy-night-view_m {
+	#galaxy-night-view_o {
 		position: absolute;
 		width: 1920px;
 		height: 1371px;
@@ -128,7 +129,7 @@
 		overflow: visible;
 		--web-animation: fadein 0.3s ease-out;
 		--web-action-type: page;
-		--web-action-target: Web_1920___2.html;
+		--web-action-target: about.html;
 		cursor: pointer;
 	}
 	#About_Us {
@@ -154,7 +155,7 @@
 		overflow: visible;
 		--web-animation: fadein 0.3s ease-out;
 		--web-action-type: page;
-		--web-action-target: Web_1920___5.html;
+		--web-action-target: Future.html;
 		cursor: pointer;
 	}
 	#Future_plan {
@@ -523,6 +524,50 @@
 		height: 58px;
 		left: 1440px;
 		top: 370px;
+	}
+	#Path_3 {
+		opacity: 0.51;
+		fill: rgba(112,112,112,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_3 {
+		overflow: visible;
+		position: absolute;
+		width: 701.564px;
+		height: 116.533px;
+		left: 583.218px;
+		top: 754.733px;
+		transform: matrix(1,0,0,1,0,0);
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Web_1920___1.html;
+		cursor: pointer;
+	}
+	#To_know_the_description_of_the {
+		left: 624px;
+		top: 793px;
+		position: absolute;
+		overflow: visible;
+		width: 621px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Web_1920___1.html;
+		cursor: pointer;
+		line-height: 40px;
+		margin-top: -5px;
+		text-align: right;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+		text-decoration: underline;
 	}
 </style>
 <script id="applicationScript">
@@ -3437,9 +3482,9 @@ window.application = new Application();
 </script>
 </head>
 <body>
-<div id="Web_1920__1">
+<div id="index">
 	<div id="galaxy-night-view" class="galaxy_night_view">
-		<img id="galaxy-night-view_m" src="galaxy-night-view_m.png" srcset="galaxy-night-view_m.png 1x">
+		<img id="galaxy-night-view_o" src="galaxy-night-view_o.png" srcset="galaxy-night-view_o.png 1x">
 			
 	</div>
 	<svg class="Rectangle_3">
@@ -3552,6 +3597,13 @@ window.application = new Application();
 		<rect id="Rectangle_26" rx="0" ry="0" x="0" y="0" width="296" height="58">
 		</rect>
 	</svg>
+	<svg class="Path_3" viewBox="0 0 701.564 116.533">
+		<path onclick="application.goToTargetView(event)" id="Path_3" d="M 76.38468933105469 0 L 625.1793212890625 0 C 667.3654174804688 0 701.5640869140625 26.08687019348145 701.5640869140625 58.26665878295898 C 701.5640869140625 90.44645690917969 667.3654174804688 116.533317565918 625.1793212890625 116.533317565918 L 76.38468933105469 116.533317565918 C 34.19858932495117 116.533317565918 0 90.44645690917969 0 58.26665878295898 C 0 26.08687019348145 34.19858932495117 0 76.38468933105469 0 Z">
+		</path>
+	</svg>
+	<div onclick="application.goToTargetView(event)" id="To_know_the_description_of_the">
+		<span>To know the description of the cases click here.</span>
+	</div>
 </div>
 </body>
 </html>
