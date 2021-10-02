@@ -1,0 +1,585 @@
+.mediaViewInfo {
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Home;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Home {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	cursor: default;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#galaxy-night-view {
+	position: absolute;
+	width: 1920px;
+	height: 1371px;
+	left: 0px;
+	top: -145px;
+	overflow: visible;
+	padding: 0px;
+}
+#galaxy-night-view_o {
+	position: absolute;
+	width: 1920px;
+	height: 1371px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_3 {
+	opacity: 0.55;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 1741px;
+	height: 155px;
+	left: 90px;
+	top: 64px;
+}
+#Component_3__1 {
+	position: absolute;
+	width: 432px;
+	height: 137px;
+	left: 744px;
+	top: 73px;
+	overflow: visible;
+}
+#logo4x {
+	position: absolute;
+	width: 432px;
+	height: 137px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_12 {
+	position: absolute;
+	width: 82px;
+	height: 44px;
+	left: 336px;
+	top: 120px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Who.html;
+	cursor: pointer;
+}
+#Component_5__2 {
+	position: absolute;
+	width: 82px;
+	height: 27px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#About_Us {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Component_7__1 {
+	position: absolute;
+	width: 81px;
+	height: 7px;
+	left: 1px;
+	top: 37px;
+	overflow: visible;
+}
+#Rectangle_7 {
+	fill: rgba(254,212,105,1);
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	height: 7px;
+	left: 0px;
+	top: 0px;
+}
+#Group_10 {
+	position: absolute;
+	width: 107px;
+	height: 43px;
+	left: 1525px;
+	top: 120px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Future.html;
+	cursor: pointer;
+}
+#Component_5__3 {
+	position: absolute;
+	width: 100px;
+	height: 27px;
+	left: 3px;
+	top: 0px;
+	overflow: visible;
+}
+#Future_plan {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Component_8__1 {
+	position: absolute;
+	width: 107px;
+	height: 6px;
+	left: 0px;
+	top: 37px;
+	overflow: visible;
+}
+#Rectangle_8 {
+	fill: rgba(48,187,150,1);
+}
+.Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	height: 6px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_11 {
+	fill: rgba(240,84,85,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 597px;
+	height: 130px;
+	left: 662px;
+	top: 550px;
+}
+#Component_9__1 {
+	position: absolute;
+	width: 281px;
+	height: 281px;
+	left: 820px;
+	top: 288px;
+	overflow: visible;
+}
+#Asset_84x {
+	position: absolute;
+	width: 281px;
+	height: 281px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_13__1 {
+	position: absolute;
+	width: 291px;
+	height: 115px;
+	left: 90px;
+	top: 903px;
+	overflow: visible;
+}
+#NASA_Space_Apps_Challenge_logo {
+	position: absolute;
+	width: 291px;
+	height: 115px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_14__1 {
+	position: absolute;
+	width: 142px;
+	height: 139px;
+	left: 1700px;
+	top: 891px;
+	overflow: visible;
+}
+#sasa-profile {
+	position: absolute;
+	width: 142px;
+	height: 139px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_9 {
+	position: absolute;
+	width: 94px;
+	height: 30px;
+	left: 1690px;
+	top: 127px;
+	overflow: visible;
+}
+#Component_5__4 {
+	position: absolute;
+	width: 56px;
+	height: 27px;
+	left: 38px;
+	top: 0px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Home_ar.html;
+	cursor: pointer;
+}
+#Arabic {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#worldwide {
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 0px;
+	top: 3px;
+	overflow: visible;
+}
+#Group_11 {
+	position: absolute;
+	width: 121px;
+	height: 47px;
+	left: 157px;
+	top: 118px;
+	overflow: visible;
+}
+#Component_5__1 {
+	position: absolute;
+	width: 54px;
+	height: 27px;
+	left: 64px;
+	top: 3px;
+	overflow: visible;
+}
+#Home_bf {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Component_6__1 {
+	position: absolute;
+	width: 61px;
+	height: 7px;
+	left: 60px;
+	top: 40px;
+	overflow: visible;
+}
+#Rectangle_6 {
+	fill: rgba(240,84,85,1);
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	height: 7px;
+	left: 0px;
+	top: 0px;
+}
+#home {
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Scroll_Group_2 {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 431px;
+	height: 49px;
+	left: 745px;
+	top: 975px;
+	overflow: hidden;
+}
+#Rectangle_17 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 431px;
+	height: 49px;
+	left: 0px;
+	top: 0px;
+}
+#Build_With__in_KSA {
+	left: 866px;
+	top: 986px;
+	position: absolute;
+	overflow: visible;
+	width: 174px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Data_Source {
+	left: 1450px;
+	top: 339px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(255,255,255,1);
+}
+#httpsspaceweathercom_ {
+	left: 1450px;
+	top: 380px;
+	position: absolute;
+	overflow: visible;
+	width: 279px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(255,255,255,1);
+}
+#Component_12__2 {
+	position: absolute;
+	width: 502px;
+	height: 56px;
+	left: 709px;
+	top: 615px;
+	overflow: visible;
+}
+#Please_take_cover_at_home_or_i {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 503px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(255,255,255,1);
+}
+#Component_11__2 {
+	position: absolute;
+	width: 334px;
+	height: 46px;
+	left: 788px;
+	top: 561px;
+	overflow: visible;
+}
+#Radiation_level_High {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 335px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: rgba(255,255,255,1);
+}
+#Component_12__5 {
+	position: absolute;
+	width: 168px;
+	height: 31px;
+	left: 134px;
+	top: 324px;
+	overflow: visible;
+}
+#Date_3-10-2021 {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(255,255,255,1);
+}
+#Component_12__6 {
+	position: absolute;
+	width: 230px;
+	height: 31px;
+	left: 133px;
+	top: 412px;
+	overflow: visible;
+}
+#Radiation_Degree_15 {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 231px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(255,255,255,1);
+}
+#Component_12__7 {
+	position: absolute;
+	width: 150px;
+	height: 31px;
+	left: 134px;
+	top: 368px;
+	overflow: visible;
+}
+#Time_900_AM {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 151px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(255,255,255,1);
+}
+#Rectangle_26 {
+	fill: transparent;
+}
+.Rectangle_26 {
+	position: absolute;
+	overflow: visible;
+	width: 296px;
+	height: 58px;
+	left: 1440px;
+	top: 370px;
+}
+#Path_3 {
+	opacity: 0.51;
+	fill: rgba(112,112,112,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_3 {
+	overflow: visible;
+	position: absolute;
+	width: 701.564px;
+	height: 116.533px;
+	left: 583.218px;
+	top: 754.733px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#To_know_the_description_of_the {
+	left: 624px;
+	top: 793px;
+	position: absolute;
+	overflow: visible;
+	width: 621px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Radiation.html;
+	cursor: pointer;
+	line-height: 40px;
+	margin-top: -5px;
+	text-align: right;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	text-decoration: underline;
+}
